@@ -1,3 +1,10 @@
-from core.super_iters import magic_printer
+from core.super_iters import print_hello
 
-magic_printer()
+
+def main():
+    names = ['Alexandra', 'Nikita', 'Julya', 'Kristina']
+    print_hello(names)
+
+
+if __name__ == '__main__':
+    main()
